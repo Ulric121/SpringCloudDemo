@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fangjia-eureka/fangjia-eureka.iml" filepath="$PROJECT_DIR$/fangjia-eureka/fangjia-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fangjia-fsh-house-service/fangjia-fsh-house-service.iml" filepath="$PROJECT_DIR$/fangjia-fsh-house-service/fangjia-fsh-house-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fangjia-fsh-substitution-service/fangjia-fsh-substitution-service.iml" filepath="$PROJECT_DIR$/fangjia-fsh-substitution-service/fangjia-fsh-substitution-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+    </modules>
+  </component>
+</project>
