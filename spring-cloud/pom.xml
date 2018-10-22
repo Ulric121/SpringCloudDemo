@@ -12,6 +12,7 @@
         <module>fangjia-eureka</module>
         <module>fangjia-fsh-house-service</module>
         <module>fangjia-fsh-substitution-service</module>
+        <module>fangjia-fsh-house-service-8083</module>
     </modules>
 
     <!-- spring boot -->
@@ -22,6 +23,15 @@
         <relativePath/>
     </parent>
 
+    <dependencies>
+        <!-- 热部署 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>1.4.0.RELEASE</version>
+        </dependency>
+    </dependencies>
+
     <!-- spring cloud -->
     <dependencyManagement>
         <dependencies>
@@ -31,11 +41,6 @@
                 <version>Dalston.SR4</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-devtools</artifactId>
-                <version>1.4.0.RELEASE</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

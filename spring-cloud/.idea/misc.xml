@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/fangjia-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/fangjia-fsh-substitution-service/pom.xml" />
       </set>
     </option>
   </component>

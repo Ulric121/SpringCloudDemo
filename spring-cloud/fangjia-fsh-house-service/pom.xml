@@ -12,7 +12,7 @@
     <artifactId>fangjia-fsh-house-service</artifactId>
 
     <dependencies>
-        <!-- eureka -->
+        <!-- eureka client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>

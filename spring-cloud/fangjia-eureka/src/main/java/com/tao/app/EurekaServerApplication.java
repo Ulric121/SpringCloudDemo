@@ -1,4 +1,4 @@
-package com.tao.app.app;
+package com.tao.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
