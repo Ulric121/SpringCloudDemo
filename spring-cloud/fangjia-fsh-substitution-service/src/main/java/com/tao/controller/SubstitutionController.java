@@ -18,7 +18,7 @@ public class SubstitutionController {
     @RequestMapping(value = "/callHello", method = RequestMethod.GET)
     public String callHello() {
         String result = restTemplate.getForObject("http://fsh-house/house/hello", String.class);
-        System.out.println("调用结果：" + result);
+        System.out.println("调用结果是：" + result);
         return result;
     }
 
