@@ -1,4 +1,4 @@
-package com.tao.app;
+package com.tao;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
