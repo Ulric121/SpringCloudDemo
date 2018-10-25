@@ -15,7 +15,6 @@
         <module>fangjia-fsh-house-service-8083</module>
     </modules>
 
-    <!-- spring boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

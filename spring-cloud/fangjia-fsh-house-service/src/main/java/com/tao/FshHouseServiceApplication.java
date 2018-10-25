@@ -8,7 +8,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @author tao 2018/10/20
  */
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient//当前的服务是eureka客户端
 public class FshHouseServiceApplication {
 
     public static void main(String[] args) {
