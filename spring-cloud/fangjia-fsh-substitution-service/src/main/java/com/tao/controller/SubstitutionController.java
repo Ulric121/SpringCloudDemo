@@ -29,7 +29,8 @@ public class SubstitutionController {
 
     @RequestMapping(value = "/data", method = RequestMethod.GET)
     public HouseInfo getData(@RequestParam("name") String name) {
-        return restTemplate.getForObject("http://fsh-house/house/data?name=" + name, HouseInfo.class);
+        //return restTemplate.getForObject("http://fsh-house/house/data?name=" + name, HouseInfo.class);
+        return houseRemoteClient.getData(name);
     }
 
     @RequestMapping(value = "/data/{name}", method = RequestMethod.GET)
