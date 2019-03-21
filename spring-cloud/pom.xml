@@ -13,6 +13,7 @@
         <module>fangjia-fsh-house-service</module>
         <module>fangjia-fsh-substitution-service</module>
         <module>fangjia-fsh-house-service-8083</module>
+        <module>fangjia-fsh-house-service-8084</module>
     </modules>
 
     <parent>
