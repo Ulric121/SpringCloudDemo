@@ -16,7 +16,7 @@ public class HouseController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
-        return "Hello World" + serverPort;
+        return "Hello World " + serverPort;
     }
 
     @RequestMapping(value = "/data", method = RequestMethod.GET)
